@@ -25,7 +25,8 @@ describe('API Server', () => {
   });
   it('works with query params and the "/person" route', async () => {
     const response = await request.get('/person?name=Lewis');
-    expect(response.text).toEqual('Hello Lewis');
+    expect(response.status).toBe(200);
+    expect(typeof (response)).toEqual('object');
   });
 
 });
