@@ -11,9 +11,8 @@ From a business requirements standpoint, we will be building a basic Express ser
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/tm-LBenson/server-deployment-practice/actions) (GitHub Actions)
-- [server-prod](https://server-deployment-assignment.onrender.com/)
-- [server-dev](https://server-deployment-assignment-dev.onrender.com/)
+- [ci/cd](https://github.com/tm-LBenson/basic-express-server/actions) (GitHub Actions)
+- [server-prod](https://four01-d49-basic-server.onrender.com/)
 
 ### Setup
 
