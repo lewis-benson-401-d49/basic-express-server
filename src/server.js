@@ -15,7 +15,7 @@ app.get('/', logger, (req, res, next) => {
 });
 
 app.get('/person', validator, (req, res, next) => {
-  res.status(200).send(`Hello ${req.query.name}`);
+  res.status(200).json({ 'name': req.query.name });
 });
 
 app.get('/bad', (req, res, next) => {
